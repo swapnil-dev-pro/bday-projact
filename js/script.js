@@ -86,7 +86,7 @@ $("#bouasojaw").click(function(){
       mm = String(today.getMonth() + 1).padStart(2, "0"),
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
-      dayMonth = "03/23/",
+      dayMonth = "03/31/",
       birthday = dayMonth + yyyy;
   
   today = mm + "/" + dd + "/" + yyyy;
@@ -126,13 +126,12 @@ $("#bouasojaw").click(function(){
     spinner: 'rotating-plane'
 });
 
-
 new VenoBox({
     selector: '.my-video-links',
 });
 $(function(){
 	$(".typed").typed({
-		strings: [" Web Devoloper.", "Leader.", "Motivational Speaker."],
+		strings:[" Web Devoloper.", "Leader.", "Motivational Speaker.,"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
